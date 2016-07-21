@@ -4,7 +4,7 @@
   "author": "Michał Budzyński <michal@virtualdesign.pl>",
   "repository": "git@github.com:michalbe/alehchad.git",
   "scripts": {
-    "lint": "node node_modules/jshint/bin/jshint ."
+    "no-lint": "node node_modules/jshint/bin/jshint ."
   },
   "pre-commit": [
     "lint",
